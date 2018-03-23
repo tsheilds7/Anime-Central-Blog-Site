@@ -1,0 +1,131 @@
+.container.main{
+    margin-top: 15rem;
+    
+}
+
+
+i.icon {
+    
+    font-size: 2rem;
+    
+}
+
+#footer {
+    background-color: black;
+    margin-bottom: 0rem;
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#footText {
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: red;
+}
+
+#form {
+    background-color: silver;
+    
+}
+
+#nav{
+    background-color: black;
+}
+
+#blog{
+    margin-top: 10rem;
+    margin-bottom: 7rem;
+    background-color: silver;
+    width: 25%;
+    margin-left: 40%;
+}
+
+#edit{
+
+    margin-bottom: 7rem;
+    width: 5rem;
+   
+}
+
+
+#delete{
+   
+    margin-bottom: 7rem;
+    width: 5rem;
+    margin-left: 5rem;
+    
+}
+
+#forms {
+    margin-left: 40%;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+img {
+    width: 15rem;
+    height: 15rem;
+}
+
+
+
+#logo {
+    
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+
+#loginform {
+    
+    
+    margin: auto;
+    margin-top: 20rem;
+    margin-left: 33%;
+    width: 35%;
+    position: fixed;
+    
+    
+}
+
+#logoName {
+    
+    text-align: center;
+    
+}
+
+#sbutton{
+    
+    margin-top: 5rem;
+    margin-left: 45%;
+    
+}
+
+#uform {
+    
+    margin-bottom: 3rem;
+    
+}
+
+#pform {
+    
+    margin-bottom: 3rem;
+    
+}
+
+#startButtons {
+    
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 10%;
+    
+}
+
+
+/*css for the app*/

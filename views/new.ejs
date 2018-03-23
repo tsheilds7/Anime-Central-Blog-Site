@@ -1,0 +1,37 @@
+<% include ./partials/header %>
+
+<div class = "ui main text container segment" id="form">
+    <div class="ui huge header" >New Blog</div>
+    <form class="ui form" action="/blogs" method="POST" >
+        <div class="field">
+            <label>Title</label>
+             <input type="text"  name="blog[title]" placeholder="Character Name">
+        </div>
+        <div class="field">
+            <label>Image</label>
+            <input type="text" name="blog[image]" placeholder="Image">
+        </div>
+        <div class="field">
+            <label>Blog Post</label>
+            <textarea name="blog[body]" placeholder="Blog Post Goes Here ..."></textarea>
+        </div>
+         <input type="submit" class="ui inverted red button">
+    </form>
+</div>
+
+<% include ./partials/footer %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Ejs file for creating a new Post -->

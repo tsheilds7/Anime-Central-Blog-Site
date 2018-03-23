@@ -1,0 +1,22 @@
+<% include ./partials/header %>
+
+
+<!--for every blog in the blogs collection print it out in the html format below-->
+<% blogs.forEach(function(blog){%>
+<div id="blog">
+    <h2><%= blog.title%></h2>
+    <div id="image" class="image"><img src="<%= blog.image %>" ></div>
+    
+    <span><%=blog.created.toDateString() %></span>
+    <p><%= blog.body.substring(0,100) %>...</p>
+    <a href="/blogs/<%=blog._id%>">Read More</a>
+</div>
+    <% }) %>
+    
+    <% include ./partials/footer %>
+    
+    
+    
+    
+    
+    <!-- Home page that displays all of the blog posts--> 
